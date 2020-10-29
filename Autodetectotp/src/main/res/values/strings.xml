@@ -1,0 +1,9 @@
+<resources>
+    <string name="continue_with">Continue with</string>
+    <string name="tryit_another">Try another</string>
+    <string name="lbl_otp_message">By tapping Verify phone number a SMS may be sent.</string>
+    <string name="lbl_resend_otp_message">By tapping Resend Otp a SMS may be sent.</string>
+    <string name="lbl_otp">OTP</string>
+    <string name="lbl_resend_otp"><u>Resend OTP</u></string>
+    <string name="lbl_resend_otp_in">Resend OTP In : </string>
+</resources>

@@ -1,0 +1,3 @@
+include ':Autodetectotp'
+include ':app'
+rootProject.name = "HMSPhoneSelector"

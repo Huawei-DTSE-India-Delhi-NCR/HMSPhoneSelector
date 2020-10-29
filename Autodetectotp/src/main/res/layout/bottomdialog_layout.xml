@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:id="@+id/txt_tapping"
+        android:text="@string/lbl_otp_message"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/et_verify_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="@dimen/sp_12"
+        android:hint="@string/lbl_otp"
+        android:inputType="number"
+        android:minWidth="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/txt_counter"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btn_resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/upsdk_white"
+        android:background="@drawable/background_pf"
+        android:text="Resend"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/upsdk_white"
+        android:background="@drawable/background_pf"
+        android:text="Continue" />
+
+</LinearLayout>
+</layout>

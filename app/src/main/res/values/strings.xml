@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HMSPhoneSelector</string>
+    <string name="enterphone_num">Enter phone number</string>
+    <string name="tryit_another">Try another</string>
+    <!--    Phone-->
+    <string name="lbl_register_number">Phone Authentication</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="lbl_otp_message">By tapping Verify phone number a SMS may be sent.</string>
+    <string name="lbl_resend_otp_message">By tapping Resend Otp a SMS may be sent.</string>
+    <string name="lbl_verify_phone_number">Verify phone number</string>
+    <string name="lbl_otp">OTP</string>
+    <string name="lbl_resend_otp"><u>Resend OTP</u></string>
+    <string name="lbl_resend_otp_in">Resend OTP In : </string>
+</resources>

@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.autodetectotp">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application>
+        <receiver
+            android:name=".agccommon.receiver.SMSListener">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
