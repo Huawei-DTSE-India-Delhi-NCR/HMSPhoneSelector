@@ -12,8 +12,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="25dp"
-            app:cardCornerRadius="8dp">
+            android:layout_margin="@dimen/dp_25"
+            app:cardCornerRadius="@dimen/dp_8">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -21,27 +21,27 @@
 
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_100"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="fitXY"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="@dimen/dp_10"
                     android:src="@drawable/sms_msg"/>
 
                 <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_40"
+                android:layout_marginRight="@dimen/dp_20"
                 android:orientation="horizontal"
                 android:background="@color/upsdk_white">
 
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/ccp"
-                    android:layout_marginTop="5dp"
-                    android:layout_width="95dp"
-                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:layout_width="@dimen/dp_95"
+                    android:layout_height="@dimen/dp_30"
                     app:ccp_textSize="12sp" />
 
                 <EditText
@@ -50,18 +50,18 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/enter_phone_number"
                     android:inputType="number"
-                    android:textSize="12sp" />
+                    android:textSize="@dimen/sp_12" />
 
             </LinearLayout>
                 <ImageView
                     android:id="@+id/btn_send"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="fitXY"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="@dimen/dp_50"
                     android:src="@drawable/go_phone"
-                    android:layout_marginBottom="30dp"/>
+                    android:layout_marginBottom="@dimen/dp_40"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

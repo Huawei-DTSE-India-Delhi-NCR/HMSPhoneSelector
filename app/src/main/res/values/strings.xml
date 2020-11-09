@@ -11,4 +11,10 @@
     <string name="lbl_otp">OTP</string>
     <string name="lbl_resend_otp"><u>Resend OTP</u></string>
     <string name="lbl_resend_otp_in">Resend OTP In : </string>
+    <string name="input_number">Please input number.</string>
+    <string name="check_internet">Please check internet.</string>
+    <string name="select_countryCode">Please select country code first.</string>
+    <string name="access_permission">You need to allow access to both the permissions</string>
+    <string name="user_signOut">User signout successfully</string>
+    <string name="signout">SignOut</string>
 </resources>

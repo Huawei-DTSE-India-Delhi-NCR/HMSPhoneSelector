@@ -27,7 +27,7 @@ public class UserDetails extends AppCompatActivity implements View.OnClickListen
         if (v.getId() == R.id.signout) {
             if(AGConnectAuth.getInstance().getCurrentUser()!=null){
                 AGConnectAuth.getInstance().signOut();
-                Toast.makeText(getApplicationContext(),"User signout successfully",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.user_signOut),Toast.LENGTH_LONG).show();
                 finish();
             }
         }

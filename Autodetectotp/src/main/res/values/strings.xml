@@ -6,4 +6,15 @@
     <string name="lbl_otp">OTP</string>
     <string name="lbl_resend_otp"><u>Resend OTP</u></string>
     <string name="lbl_resend_otp_in">Resend OTP In : </string>
+    <string name="simslot_empty">Please check sim slots are empty</string>
+    <string name="otp_authentication">OTP Authentication</string>
+    <string name="enter_otp">Enter the OTP.</string>
+    <string name="otp_request">OTP request</string>
+    <string name="verify">Verify</string>
+    <string name="resend">Resend</string>
+    <string name="otp_sent">OTP sent successfully.</string>
+    <string name="verifyCode_empty">Verifycode can not be null or empty</string>
+    <string name="already_signIn">Already sign in a user</string>
+    <string name="invalid_phone">Invalid mobile number</string>
+    <string name="verify_phone">Invalid verification code, verification failed</string>
 </resources>

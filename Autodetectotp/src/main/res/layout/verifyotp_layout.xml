@@ -9,11 +9,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="@dimen/dp_5"
         android:gravity="center"
         android:id="@+id/txt_tapping"
         android:text="@string/lbl_otp_message"
-        android:textSize="12sp" />
+        android:textSize="@dimen/sp_12" />
 
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/dp_20"
         android:gravity="center"
         android:textSize="@dimen/sp_12"
         android:hint="@string/lbl_otp"
@@ -33,29 +33,28 @@
         android:text=""
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:id="@+id/txt_counter"
-        android:layout_marginLeft="12dp"
+        android:layout_marginStart="@dimen/dp_12"
         android:layout_gravity="center_horizontal"/>
     <Button
         android:id="@+id/btn_resend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_margin="@dimen/dp_20"
         android:textSize="@dimen/sp_12"
         android:textColor="@color/upsdk_white"
         android:background="@drawable/background_pf"
-        android:text="Resend"
+        android:text="@string/resend"
         android:visibility="gone"/>
     <Button
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_margin="@dimen/dp_20"
         android:textSize="@dimen/sp_12"
         android:textColor="@color/upsdk_white"
         android:background="@drawable/background_pf"
-        android:text="Continue" />
+        android:text="@string/verify"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
 </layout>
