@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
@@ -33,6 +34,7 @@ public class PhoneNumberDialog extends Dialog implements View.OnClickListener {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         phonenumberLayoutBinding = DataBindingUtil.inflate(LayoutInflater.from(getContext()), R.layout. phonenumber_layout, null, false);
         setContentView(phonenumberLayoutBinding.getRoot());
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         setCanceledOnTouchOutside(false);
         initView();
         phoneNumbersData();

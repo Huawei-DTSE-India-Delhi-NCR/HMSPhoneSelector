@@ -17,4 +17,5 @@
     <string name="access_permission">You need to allow access to both the permissions</string>
     <string name="user_signOut">User signout successfully</string>
     <string name="signout">SignOut</string>
+    <string name="send_otp">Send OTP</string>
 </resources>

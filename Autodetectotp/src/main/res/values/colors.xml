@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="upsdk_white">#FFFFFFFF</color>
+
+    <color name="color_254FF7">#254FF7</color>
+    <color name="black">#000000</color>
+    <color name="color_FF0A59F7">#FF0A59F7</color>
+    <color name="color_FF254FF7">#FF254FF7</color>
 </resources>
