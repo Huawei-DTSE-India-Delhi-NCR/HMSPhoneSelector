@@ -3,8 +3,8 @@
 
     <item
         android:drawable="@drawable/phone_icon"
-        android:width="50dp"
-        android:height="50dp"
+        android:width="@dimen/dp_50"
+        android:height="@dimen/dp_50"
         />
 
 </layer-list >
