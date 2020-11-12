@@ -30,6 +30,7 @@ import static android.Manifest.permission.READ_SMS;
 import static android.Manifest.permission.RECEIVE_SMS;
 
 public class MainActivity extends AppCompatActivity implements ConnectionCallback,View.OnClickListener {
+    //
     AgcPhoneBinding binding;
     private static final int PERMISSION_REQUEST_CODE = 200;
     PhoneSelector phoneSelector;
